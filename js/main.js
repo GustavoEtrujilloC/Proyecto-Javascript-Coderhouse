@@ -1,4 +1,17 @@
-const NAME = prompt ("Hola, bienvenido al mejor simulador para la eleccion de juegos para PlayStation 5, me dices tu nombre?")
+let usuario;   
+    
+        while(true){
+             NAME = prompt ("Hola, bienvenido al mejor simulador para la eleccion de juegos para PlayStation 5, me dices tu nombre?");
+            
+            if (NAME == null){
+                alert("Por favor ingrese un nombre valido")
+            }else{
+                Usuario = NAME;
+                break;
+            }
+
+        }
+
 const INICIALIZACION = prompt (NAME + ", tienes un codigo de descuento para tu compra? Si / No").toLowerCase();
 
 let juego;
