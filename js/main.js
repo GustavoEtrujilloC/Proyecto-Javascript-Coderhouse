@@ -1,7 +1,7 @@
 let usuario;   
     
         while(true){
-             NAME = prompt ("Hola, bienvenido al mejor simulador para la eleccion de juegos para PlayStation 5, me dices tu nombre?");
+             NAME = prompt ("Hola, bienvenido te ayudaremos con la eleccion de tus juegos para PlayStation 5, me dices tu nombre?");
             
             if (NAME == null){
                 alert("Por favor ingrese un nombre valido")
@@ -12,7 +12,7 @@ let usuario;
 
         }
 
-const INICIALIZACION = prompt (NAME + ", tienes un codigo de descuento para tu compra? Si / No").toLowerCase();
+const INICIALIZACION = prompt (NAME + ", tienes algun codigo de descuento para tu compra? Si / No").toLowerCase();
 
 let juego;
 let presupuesto;
@@ -29,7 +29,7 @@ do {
         switch (juego) {
             case 1:
                 juego = "'FC 24' 80$"
-                alert("Escogiste " + juego)
+                alert("Elegiste " + juego)
                 precio = 80;
                 descuento = 0;
                 codigoPromocional = prompt("Escribe tu codigo promocional: ");
@@ -61,7 +61,7 @@ do {
                 break;
             case 2:
                 juego = "'Call Of Duty MW 3' 75$"
-                alert("Escogiste " + juego)
+                alert("Elegiste " + juego)
                 precio = 75;
                 descuento = 0;
                 codigoPromocional = prompt("Escribe tu codigo promocional: ");
@@ -94,7 +94,7 @@ do {
                 break;
             case 3:
                 juego = "'Spiderman 2' 70$"
-                alert("Escogiste " + juego)
+                alert("Elegiste " + juego)
                 precio = 70;
                 descuento = 0;
                 codigoPromocional = prompt("Escribe tu codigo promocional: ");
@@ -130,16 +130,16 @@ do {
             alert("Lo lamento, no escogiste una opcion correcta, vuelve a intentarlo")       
         }
     precioTotal = precio - descuento;
-    alert("El precio total para " + juego + " con el descuento aplicado es de " + precioTotal + " $");
+    alert("El precio total para " + juego + " con el descuento que haz aplicado es de " + precioTotal + " $");
     }
 
     else if (INICIALIZACION === "no") {
-        alert("Suscribete a nuestro Newsletter y te enviaremos un codigo");
+        alert("Suscribete a nuestro Newsletter y te enviaremos un codigo para tu proxima compra");
         break;
     }
 
     else {
-    alert("Lo siento, no te he entendido, suscribete a nuestro Newsletter y te enviaremos un codigo");
+    alert("Lo siento, no te he entendido, suscribete a nuestro Newsletter y te enviaremos un codigo para tu proxima compra");
     break;
     }
     
