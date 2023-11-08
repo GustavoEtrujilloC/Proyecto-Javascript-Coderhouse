@@ -132,7 +132,6 @@ do {
     
 }
 
-
 while (INICIALIZACION === "no") {
     alert("Muchas gracias por visitarnos, te esperamos nuevamente.")
     
