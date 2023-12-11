@@ -197,8 +197,80 @@
     transform: translateY(3.125rem);
     transition: 0.5s;
     opacity: 0;
+    cursor: pointer;
   }
-  .container_card .card a:hover {
+  .container_card .card a:hover  {
     background-color: #ff8826;
     box-shadow: 0.0625rem 0.0625rem 0.3125rem 0.3125rem rgb(204, 195, 195);
+  }
+
+  .vaciar {
+    
+    margin: 0;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    display: inline-block;
+    padding: 0.625rem 1.875rem;
+    background-color: #b31237;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: #f4f4f4;
+    font-size: 1.125rem;
+    transition: 0.5s;
+    
+  }
+
+  .vaciar:hover {
+    background-color: #ff8826;
+    box-shadow: 0.0625rem 0.0625rem 0.3125rem 0.3125rem rgb(204, 195, 195);
+    cursor: pointer;
+  }
+
+  .h2Carrito {
+    font-weight: bold;
+    letter-spacing: 0.0625rem;
+    color: #f4f4f4;
+    font-size: 1.375rem;
+  }
+
+  .h1Carrito {
+    width: 100%;
+    
+    position: relative;
+    padding: 0;
+    margin: auto;
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: #f4f4f4;
+    text-align: center;
+    text-shadow: 6px 6px 8px black;
+    animation: textoH1 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  }
+
+  .pCarrito {
+    font-weight: bold;
+    color: #f4f4f4;
+    font-size: 1.125rem;
+    text-align: center;
+  }
+
+  .carrito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(1.5625rem);
+    padding: 1.875rem;
+    border-radius: .9375rem;
+    border: solid 1px rgba(255, 255, 255, 0.3);
+  }
+
+  span {
+    font-weight: bold;
+    color: #f4f4f4;
+    font-size: 1.125rem;
+    text-align: center;
   }
